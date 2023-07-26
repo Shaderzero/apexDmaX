@@ -88,6 +88,7 @@
 
 
 #define OFFSET_HOST_MAP				0x016149c0 // 	host_map
+#define OFFSET_TIMESCALE				0x01799bd0 // 	timescale
 
 
 #endif
