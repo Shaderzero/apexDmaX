@@ -37,7 +37,7 @@ uint32_t check = 0xABCD;
 int aim_key = VK_LBUTTON; //Left Click
 int aim_key2 = VK_XBUTTON2; //Right Click
 int shoot_key = VK_LBUTTON; //Left Click
-int shoot_key2 = VK_RBUTTON; //Right Click
+int shoot_key2 = VK_XBUTTON2; //Right Click
 //Left and Right Aim key toggle
 bool toggleaim = false;
 bool toggleaim2 = false;
