@@ -87,4 +87,7 @@
 #define CROSSHAIR_TARGET_TIME				0x1a78 // 	lastCrosshairTargetTime
 
 
+#define OFFSET_HOST_MAP				0x016149c0 // 	host_map
+
+
 #endif
