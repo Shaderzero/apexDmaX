@@ -35,7 +35,7 @@ uint32_t check = 0xABCD;
 
 //Aiming keys: left and right mouse button
 int aim_key = VK_LBUTTON; //Left Click
-int aim_key2 = VK_RBUTTON; //Right Click
+int aim_key2 = VK_XBUTTON2; //Right Click
 int shoot_key = VK_LBUTTON; //Left Click
 int shoot_key2 = VK_RBUTTON; //Right Click
 //Left and Right Aim key toggle
@@ -55,7 +55,7 @@ bool aim_no_recoil = true;
 bool aiming = false; //read
 uint64_t g_Base = 0; //write
 float max_dist = 3800.0f * 40.0f; //read //Max Distance of ESP 3800 is full map
-float smooth = 110.0f; //Min 100 for safe aimbotting
+float smooth = 100.0f; //Min 100 for safe aimbotting
 float max_fov = 15.0f; //15 is the sweetspot for 1080p
 // Dynamic Fov
 float dynamicfov = 10;
